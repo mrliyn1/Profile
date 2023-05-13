@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana;
+}
+tr,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+table {
+  margin-top: 20px;
+  background-color: #fff;
+  margin: 0 auto 0 auto;
+  border-collapse: collapse;
+}
+ ul {
+    float: none;
+    margin-top: 25px;
+}
+ul li {
+  display: inline-block;
+  padding: 25px;
+}
+ul li a{
+  text-decoration: none;
+  color: #000;
+  padding: 5px 20px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  transition: 0,6s;
+  margin: 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+ul li a:hover{
+  background-color: #fff;
+  color: black;
+}
+.active {
+    background-color: #fff;
+    color: black;
+}
+.table {
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+}
